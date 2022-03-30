@@ -58,7 +58,7 @@ a valid duck script from an inject.bin
 
 > References
 
-- github.com/adamcaudill/Psychson
-- github.com/brandonlw/Psychson
-- github.com/flowswitch/phison
-- github.com/hak5darren/USB-Rubber-Ducky/wiki
+- [adamcaudill](github.com/adamcaudill/Psychson)
+- [brandonlw](github.com/brandonlw/Psychson)
+- [flowswitch](github.com/flowswitch/phison)
+- [hak5darren](github.com/hak5darren/USB-Rubber-Ducky/wiki)
