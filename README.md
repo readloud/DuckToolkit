@@ -1,6 +1,6 @@
 # DuckToolkit
 Encoding Tools for Rubber Ducky. 
-The duck tools are available in the browser at https://ducktoolkit.com. From here you can also generate payloads from a selection of predefined scripts and templates.
+The duck tools are available in the browser at [ducktoolkit.com](https://ducktoolkit.com). From here you can also generate payloads from a selection of predefined scripts and templates.
 
 ## Disclaimer
 
