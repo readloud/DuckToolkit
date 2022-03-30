@@ -46,7 +46,7 @@ duck_bin = encoder.encode_script(duck_text, language)
 
 ## Limitations
 
-The encoder can only deal with certain Command keys and key combinations. Please see https://usbrubberducky.com for details on supported commands. 
+The encoder can only deal with certain Command keys and key combinations. Please see for details on [supported commands](https://usbrubberducky.com). 
 
 The decoder is a best effort decoder. It will attempt to restore all command keys and strings. But its a lot harder going backwards. You will NOT be able to generate 
 a valid duck script from an inject.bin
