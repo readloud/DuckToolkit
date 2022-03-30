@@ -10,14 +10,12 @@ The duck tools are available in the browser at [ducktoolkit.com](https://ducktoo
 
 Download the release and install with ```python setup.py install``` Or ```sudo pip install --upgrade ducktoolkit```
 
-
 There are no external dependencies other than python.
 This has been tested on Ubuntu and Windows 10
 
-
 ## Usage
 
-The DuckToolkit is provided with a script that will allow you to easily encode and decode your files. 
+The DuckToolkit is provided with a script that will allow you to easily [encode and decode your files](https://github.com/readloud/DuckToolkit/wiki). 
 
 ### Encode
 
