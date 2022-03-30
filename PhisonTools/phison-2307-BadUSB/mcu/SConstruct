@@ -1,0 +1,7 @@
+VariantDir("build", ".", duplicate=0)
+env = Environment(tools=["sdcc", "btpram"], TARGET_ARCH="mcs51", CFLAGS="--model-small", LINKFLAGS="--xram-loc 0x6000")
+
+sources = ["build/main.c", "build/led.c", "build/ticks.c", "build/usb.c", "build/serial.c", "build/scsi.c", "build/ch9.c"]
+env.Hex("build/test", sources)
+env.Bin("build/test", "build/test")
+env.BtPram("test", "build/test")
