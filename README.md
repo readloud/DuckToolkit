@@ -8,11 +8,7 @@ The duck tools are available in the browser at https://ducktoolkit.com. From her
 
 ## Installation
 
-Download the release and install with ```python setup.py install```
-
-Or 
-
-```sudo pip install --upgrade ducktoolkit```
+Download the release and install with ```python setup.py install``` Or ```sudo pip install --upgrade ducktoolkit```
 
 
 There are no external dependencies other than python.
