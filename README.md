@@ -55,3 +55,9 @@ a valid duck script from an inject.bin
 - Support more keyboard layouts / languages.
 - Improve the decoder.
 - Pip Installation
+
+> References
+github.com/adamcaudill/Psychson
+github.com/brandonlw/Psychson
+github.com/flowswitch/phison
+github.com/hak5darren/USB-Rubber-Ducky/wiki
